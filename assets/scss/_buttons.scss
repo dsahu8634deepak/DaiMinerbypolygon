@@ -1,0 +1,44 @@
+
+
+// Small devices (landscape phones, 576px and up)
+@mixin button-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin button-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin button-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin button-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin button-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin button-mixin-max-xs() {
+    .buttonmain {
+        font-size: 15px;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin button-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin button-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin button-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin button-mixin-max-xl() {
+}

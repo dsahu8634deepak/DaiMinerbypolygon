@@ -1,0 +1,117 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    @include heading-mixin-min-sm();
+    @include index-mixin-min-sm();
+    @include login-mixin-min-sm();
+    @include footer-mixin-min-sm();
+    @include button-mixin-min-sm();
+    @include profile-mixin-min-sm();
+    @include referral-mixin-min-sm();
+
+}
+
+// Mdium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    @include heading-mixin-min-md();
+    @include index-mixin-min-md();
+    @include login-mixin-min-md();
+    @include footer-mixin-min-md();
+    @include button-mixin-min-md();
+    @include profile-mixin-min-md();
+    @include referral-mixin-min-md();
+
+}
+
+// Lrge devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    @include heading-mixin-min-lg();
+    @include index-mixin-min-lg();
+    @include login-mixin-min-lg();
+    @include footer-mixin-min-lg();
+    @include button-mixin-min-lg();
+    @include profile-mixin-min-lg();
+    @include referral-mixin-min-lg();
+}
+
+// XLarge devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    @include heading-mixin-min-xl();
+    @include index-mixin-min-xl();
+    @include login-mixin-min-xl();
+    @include footer-mixin-min-xl();
+    @include button-mixin-min-xl();
+    @include profile-mixin-min-xl();
+    @include referral-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    @include heading-mixin-min-xxl();
+    @include index-mixin-min-xxl();
+    @include login-mixin-min-xxl();
+    @include footer-mixin-min-xxl();
+    @include button-mixin-min-xxl();
+    @include profile-mixin-min-xxl();
+    @include referral-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    @include heading-mixin-max-xl();
+    @include index-mixin-max-xl();
+    @include login-mixin-max-xl();
+    @include footer-mixin-max-xl();
+    @include button-mixin-max-xl();
+    @include profile-mixin-max-xl();
+    @include referral-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    @include heading-mixin-max-lg();
+    @include login-mixin-max-lg();
+    @include index-mixin-max-lg();
+    @include footer-mixin-max-lg();
+    @include button-mixin-max-lg();
+    @include profile-mixin-max-lg();
+    @include referral-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    @include heading-mixin-max-md();
+    @include login-mixin-max-md();
+    @include index-mixin-max-md();
+    @include footer-mixin-max-md();
+    @include button-mixin-max-md();
+    @include profile-mixin-max-md();
+    @include referral-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    @include heading-mixin-max-sm();
+    @include login-mixin-max-sm();
+    @include index-mixin-max-sm();
+    @include footer-mixin-max-sm();
+    @include button-mixin-max-sm();
+    @include profile-mixin-max-sm();
+    @include referral-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    @include heading-mixin-max-xs();
+    @include index-mixin-max-xs();
+    @include login-mixin-max-xs();
+    @include footer-mixin-max-xs();
+    @include button-mixin-max-xs();
+    @include profile-mixin-max-xs();
+    @include referral-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
