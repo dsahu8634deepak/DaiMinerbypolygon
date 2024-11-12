@@ -40,7 +40,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <!-- Link  -->
-    <link rel="stylesheet" href="./assets/libs/font-awsome/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/libs/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/google-fonts.min.css">
@@ -48,55 +48,57 @@
 
 </head>
 <body>
-    <div class="container-fluid loginpage">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 d-flex flex-column align-items-center justify-content-center h-100 ">
-                    <div class="row mx-0">
-                        <div class="col-12 px-0 d-flex align-items-center justify-content-center flex-column"> 
-                            <div class="loginuserimage mx-auto pb-3"><img class="w-100 h-100" src="./assets/image/login/loginicon.svg" alt="loginimage"></div>
-                            <h1 class="loginheading fw-bold text-white text-center mb-4">Welcome TO Login</h1>
-                        </div>
-                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                            <form action="" id="myForm" onsubmit="validateForm(); return false;">
-                                <div class="row mx-0 gy-3">
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100">
-                                            <input type="email" id="email" name="email" placeholder="User id" required="">
-                                            <span id="emailError" class="error"></span>
+    <div class="App">
+        <div class="container-fluid loginpage">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center h-100 ">
+                        <div class="row mx-0">
+                            <div class="col-12 px-0 d-flex align-items-center justify-content-center flex-column"> 
+                                <div class="loginuserimage mx-auto pb-3"><img class="w-100 h-100" src="./assets/image/login/loginicon.svg" alt="loginimage"></div>
+                                <h1 class="loginheading fw-bold text-white text-center mb-4">Welcome TO Login</h1>
+                            </div>
+                            <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                <form action="" id="myForm" onsubmit="validateForm(); return false;">
+                                    <div class="row mx-0 gy-3">
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100">
+                                                <input type="email" id="email" name="email" placeholder="User id" required="">
+                                                <span id="emailError" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100 position-relative">
+                                                <input type="password" id="password" placeholder="password" name="password" required="">
+                                                <div class="show"><img class="w-100 h-100" src="./assets/image/login/eye.svg" alt="eye"></div>
+                                                <div class="hide d-none"><img class="w-100 h-100" src="./assets/image/login/eye-slash.svg" alt="eye"></div>
+                                                <span id="passwordError" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-between">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label pt-1" for="defaultCheck1">Default checkbox</label>
+                                            </div>
+                                            <a class="text-white Anker" href="forgot.html">forgot password</a>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <button type="submit" class="btn bg-white px-5 py-2 fw-bold rounded-pill btnlogin">Login</button>
+                                        </div>
+                                        <!-- <div class="col-12 px-0">
+                                            <ul class="d-flex align-items-center justify-content-center list-unstyled gap-3 loginlist">
+                                                <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/facebook-f.svg" alt="Facebook"></span></a></li>
+                                                <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/twitter.svg" alt="twitter"></span></a></li>
+                                                <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/google-plus-g.svg" alt="google"></span></a></li>
+                                                <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/linkedin-in.svg" alt="linkedin"></span></a></li>
+                                            </ul>
+                                        </div> -->
+                                        <div class="col-12 px-0 text-center">
+                                            <p class="text-white bottomtext">I Dont Have A Account ? <a  class="text-white" href="signup.html">Register</a></p>
                                         </div>
                                     </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100 position-relative">
-                                            <input type="password" id="password" placeholder="password" name="password" required="">
-                                            <div class="show"><img class="w-100 h-100" src="./assets/image/login/eye.svg" alt="eye"></div>
-                                            <div class="hide d-none"><img class="w-100 h-100" src="./assets/image/login/eye-slash.svg" alt="eye"></div>
-                                            <span id="passwordError" class="error"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-between">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                            <label class="form-check-label pt-1" for="defaultCheck1">Default checkbox</label>
-                                        </div>
-                                        <a class="text-white" href="forgot.html">forgot password</a>
-                                    </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <button type="submit" class="btn bg-white px-5 py-2 fw-bold rounded-pill">Login</button>
-                                    </div>
-                                    <div class="col-12 px-0">
-                                        <ul class="d-flex align-items-center justify-content-center list-unstyled gap-3 loginlist">
-                                            <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/facebook-f.svg" alt="Facebook"></span></a></li>
-                                            <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/twitter.svg" alt="twitter"></span></a></li>
-                                            <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/google-plus-g.svg" alt="google"></span></a></li>
-                                            <li><a href="#"><span class="d-flex align-items-center justify-content-center"><img class="w-100 h-100" src="./assets/image/login/linkedin-in.svg" alt="linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-12 px-0 text-center">
-                                        <p class="text-white bottomtext">I Dont Have A Account ? <a class="" href="signup.html">Register</a></p>
-                                    </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

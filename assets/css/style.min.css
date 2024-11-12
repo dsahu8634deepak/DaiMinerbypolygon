@@ -1,1 +1,2454 @@
-@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-LightItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-LightItalic.woff") format("woff");font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-MediumItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-MediumItalic.woff") format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Medium.woff2") format("woff2"),url("../../assets/fonts/Poppins-Medium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-ExtraLightItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-ExtraLightItalic.woff") format("woff");font-weight:200;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Light.woff2") format("woff2"),url("../../assets/fonts/Poppins-Light.woff") format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Italic.woff2") format("woff2"),url("../../assets/fonts/Poppins-Italic.woff") format("woff");font-weight:normal;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-ExtraBold.woff2") format("woff2"),url("../../assets/fonts/Poppins-ExtraBold.woff") format("woff");font-weight:bold;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-ExtraBoldItalic.woff") format("woff");font-weight:bold;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-ExtraLight.woff2") format("woff2"),url("../../assets/fonts/Poppins-ExtraLight.woff") format("woff");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Thin.woff2") format("woff2"),url("../../assets/fonts/Poppins-Thin.woff") format("woff");font-weight:100;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-ThinItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-ThinItalic.woff") format("woff");font-weight:100;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Black.woff2") format("woff2"),url("../../assets/fonts/Poppins-Black.woff") format("woff");font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-SemiBoldItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-SemiBoldItalic.woff") format("woff");font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-SemiBold.woff2") format("woff2"),url("../../assets/fonts/Poppins-SemiBold.woff") format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Regular.woff2") format("woff2"),url("../../assets/fonts/Poppins-Regular.woff") format("woff");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-BlackItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-BlackItalic.woff") format("woff");font-weight:900;font-style:italic;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-Bold.woff2") format("woff2"),url("../../assets/fonts/Poppins-Bold.woff") format("woff");font-weight:bold;font-style:normal;font-display:swap}@font-face{font-family:"Poppins";src:url("../../assets/fonts/Poppins-BoldItalic.woff2") format("woff2"),url("../../assets/fonts/Poppins-BoldItalic.woff") format("woff");font-weight:bold;font-style:italic;font-display:swap}::-webkit-scrollbar-track{background-color:rgba(0,0,0,0)}::-webkit-scrollbar{width:6px;background-color:rgba(0,0,0,0)}::-webkit-scrollbar-thumb{background-color:#494389}body{font-family:"Poppins",sans-serif}a{text-decoration:none;color:#000;font-weight:700}img{width:100%;height:100%}*>ul::-webkit-scrollbar{height:0px !important}*>ul li::marker{color:#1f1a38}*>.table::-webkit-scrollbar{height:0px !important}*>.table li::marker{color:#1f1a38}.card-footer.groupbutton::-webkit-scrollbar{height:0px !important}.overflow-hidden-auto{overflow:hidden auto}.overflow-wrap-brack-word{overflow-wrap:break-word}.NavbarMain{background-color:rgba(0,0,0,0);z-index:9999;box-shadow:0px 0px 10px #eee}.NavbarMain .navbar-brand{width:70px;height:70px}.NavbarMain .offcanvas .offcanvas-header{padding:34px 0px;background-color:#fff;border-bottom:1px solid #e9e9e9}.NavbarMain .offcanvas .offcanvas-header .offcanvas-title{display:none}.NavbarMain .offcanvas .offcanvas-header .closebtn{display:none}.NavbarMain .offcanvas .offcanvas-body{background-color:#fff !important}.NavbarMain .offcanvas .offcanvas-body .navbar-nav{display:flex;align-items:start;flex-direction:column;gap:.8rem}.NavbarMain .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link{color:#000;font-size:14px;font-weight:500;transition:all .3s ease-in-out;display:flex;align-items:center;gap:2rem}.NavbarMain .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link span{width:25px;height:25px;display:flex;align-items:center;justify-content:center}.NavbarMain .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link.active{color:#1f1a38}.NavbarMain .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover{color:#1f1a38}.NavbarMain .offcanvas .offcanvas-body .singupbtn{border-radius:78px;background:#3e3e3e;color:#fff;font-size:16px;font-weight:700;align-items:center;display:flex;justify-content:center}.NavbarMain .offcanvas .offcanvas-body .conteryfleg{width:58px;height:57px;border-radius:50px;background:#3e3e3e;padding:8px}.NavbarMain .modalbtn{display:flex;gap:.3rem;align-items:center;color:#fff}.NavbarMain .modalbtn .earthimg{width:40px;height:40px}.NavbarMain.active{background-color:#1f1a38}.modlenav .modal-content .modal-header{flex-direction:column}.modlenav .modal-content .modal-header .modal-title{font-size:18px;font-weight:600;color:#000}.modlenav .modal-content .modal-header .moddlenoe{font-size:14px;color:#3c3c3c;text-align:center}.modlenav .modal-content .modal-body .counterylist li{border-bottom:1px solid #e9e9e9;margin-bottom:15px;padding-bottom:15px;font-size:16px;font-weight:500;color:#000;transition:all .3s ease-in-out}.modlenav .modal-content .modal-body .counterylist li:hover{color:#7a3a98;font-weight:bold;font-size:18px}.modlenav .modal-content .modal-footer button{background-color:#7a3a98;color:#fff;font-size:14px;font-weight:600}.footerbottomnav{position:fixed;bottom:0;background:#1f1a38;border-radius:20px 25px 0px 0px}.footerbottomnav ul{position:relative}.footerbottomnav ul li a span{width:25px;height:25px;display:flex;align-items:center;justify-content:center}.footerbottomnav ul .middleicon{position:absolute;top:10px;transform:translate(-50%, -50%);left:50%;width:80px;height:80px;background:#1f1a38;display:flex;align-items:center;justify-content:center;border-radius:50%;box-shadow:0px 0px 10px #eee}.footerbottomnav ul .middleicon span{width:100px;height:66px}.referralpage{background-image:url(../image/referral/referral.svg);height:90vh;background-size:cover;background-position:center;background-repeat:no-repeat;position:relative}.referralpage .card{background-color:#fff;position:absolute;bottom:0;left:0;border:none;border-radius:30px 30px 0px 0px}.referralpage .card .referrallisticon{display:flex;flex-wrap:wrap;padding:0}.referralpage .card .referrallisticon li{width:25%;flex-direction:column;display:flex}.referralpage .card .referrallisticon li a{font-size:14px;text-align:center;color:#1f1a38}.referralpage .card .referrallisticon li a span{width:50px;height:50px;margin:auto;margin-bottom:5px}.myReferral{overflow:hidden}.myReferral .table table thead th{font-size:17px;font-weight:600;color:#1f1a38;white-space:nowrap;padding:5px 23px}.myReferral .table table tbody tr td{font-size:14px;font-weight:400;color:#000;white-space:nowrap;padding:5px 23px;text-align:center}.myReferral .form-control:focus{outline:none;border-color:#1f1a38}.myReferral .zoom_im{width:100%;height:100%;text-align:center;background-color:#f9fafd;border:1px solid #fff;transition:all ease .5s;padding:10px;margin:auto;border-radius:8px;position:relative}.myReferral .zoom_im img{-o-object-fit:cover;object-fit:cover}.myReferral .zoom_im h2{position:absolute;bottom:0;left:0;padding-bottom:0px;font-size:16px;font-weight:bold;margin-top:15px;width:100%;background:#fff}.faqsection .accordion .accordion-item .accordion-header .accordion-button{background-color:#1f1a38;color:#fff;box-shadow:none}.faqsection .accordion .accordion-item .accordion-header .accordion-button::after{filter:invert(1)}.profilesection{background-image:url(../image/login/login.jpg);background-size:cover;background-size:100% 100%}.profilesection .card{background-color:rgba(0,0,0,0)}.profilesection .form-label{font-size:14px;font-weight:600;color:#fff}@media(max-width: 575.98px){.homepage{position:relative;padding-bottom:30px;border-radius:0px 0px 30px 30px;transition:height .5s ease;background-image:url(../image/home/animationgif.gif);background-repeat:no-repeat;background-size:100% 100%;padding-top:50px}.homepage .card .leftSideContent .headingmain{font-size:14px;font-weight:bold;white-space:nowrap}.homepage .card .leftSideContent .subHeading{font-size:13px;white-space:nowrap}.homepage .card .robbtimage{width:90px;height:auto;animation:rotateAnimation 5s linear infinite,verticalMotion 2s ease-in-out infinite alternate}@keyframes rotateAnimation{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}@keyframes verticalMotion{from{transform:translateY(0)}to{transform:translateY(20px)}}.homepage .arrowimag{width:20px;height:20px;bottom:0px;animation:upDownAnimation 3s infinite}.homepage .arrowimag img{filter:invert(1)}@keyframes upDownAnimation{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}.homepage.full-height{height:100vh}.heartSection .referralstakeSection .referraltext{font-size:14px;font-weight:700;color:#1f1a38}.heartSection .referralstakeSection .referraltext span{width:20px;height:20px}.minsection{background-color:#000;padding-bottom:100px;border-radius:20px 25px 0px 0px}.minsection .image{width:180px;height:200px;animation:rotateAnimation 3s linear infinite}@keyframes rotateAnimation{0%{transform:rotate(0deg)}100%{transform:rotate(180deg)}}.mainnetpage{padding-bottom:100px}.mainnetpage .heading{font-size:20px;font-weight:600;color:#000;text-align:center}.mainnetpage p{font-size:14px;font-weight:400;color:gray;text-align:center}.mainnetpage .topcard .unverifiedbalance{font-size:14px;font-weight:600;color:#000}.mainnetpage .topcard .unverifiedbalance span{width:20px;height:17px}.mainnetpage .topcard .textcolr1{display:flex;align-items:center;justify-content:start;font-size:13px;font-weight:300;color:#878787;gap:.3rem}.mainnetpage .topcard .textcolr1 span{width:10px;height:10px;border-radius:50%;background-color:#ffb027}.mainnetpage .topcard .textcolr2{display:flex;align-items:center;justify-content:start;font-size:13px;font-weight:300;color:#878787;gap:.3rem}.mainnetpage .topcard .textcolr2 span{width:10px;height:10px;border-radius:50%;background-color:#ff31ad}.mainnetpage .topcard .textcolr3{display:flex;align-items:center;justify-content:start;font-size:13px;font-weight:300;color:#878787;gap:.3rem}.mainnetpage .topcard .textcolr3 span{width:10px;height:10px;border-radius:50%;background-color:#7a3b96}.mainnetpage .topcard .progressbar .progress .progress-bar.color1{background-color:#ffb027}.mainnetpage .topcard .progressbar .progress .progress-bar.color2{background-color:#ff31ad}.mainnetpage .topcard .progressbar .progress .progress-bar .color3{background-color:#7a3b96}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header{display:flex;padding-bottom:10px;padding-top:10px}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button{padding:0;display:flex;align-items:center;gap:.4rem;color:#000;font-size:12px;font-weight:600;white-space:nowrap}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button::after{margin:unset;margin-left:-2px;padding:0px;margin-right:5px}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span{width:20px;height:20px;border-radius:8px}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span.box1{background-color:#fdb127}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span.box2{background-color:#ff31ad}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span.box3{background-color:#7a3b96}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after{background-image:url(../image/icon/acc.svg)}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accbtn{border:1px solid #494389;color:#494389;width:50%;height:30px;white-space:nowrap;font-size:11px;font-weight:bold}.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-body .textAcc{font-size:14px;color:#878787;text-align:start}.mainnetpage .boxcolumn .box-content .colobox{width:50px;height:50px;background-color:#f6ebfc;border-radius:8px;display:flex;align-items:center;justify-content:center}.mainnetpage .boxcolumn .box-content .colobox span{width:50px;height:50px}.mainnetpage .boxcolumn .box-content .text{font-size:12px;font-weight:600}.mainnetpage .boxcolumn .image{width:22px;height:22px}.mainnetpage .boxcolumn .image img{transform:rotate(270deg)}.loginpage{background-image:url(../image/login/login.jpg);background-size:cover;height:100vh}.loginpage .loginuserimage{width:150px;height:150px}.loginpage label{width:auto}.loginpage .form-check{display:flex;align-items:center;gap:.3rem}.loginpage .form-check .form-check-input{width:20px;height:20px;padding:0;box-shadow:none}.loginpage .form-check .form-check-input:checked{background-color:#1f1a38;border-color:#1f1a38}.loginpage .form-check .form-check-label{color:#fff}.loginpage input{width:100%;border-radius:30px;height:50px;border:none;box-shadow:0px 0px 4px #eee;padding:17px}.loginpage input:focus{outline:none}.loginpage .show{width:30px;height:23px;display:flex;position:absolute;right:10px;top:10px}.loginpage .hide{width:30px;height:23px;display:flex;position:absolute;right:10px;top:10px}.loginpage .error{color:red}.loginpage .loginlist li{width:60px;height:60px;border-radius:50%;background-color:#1f1a38;display:flex;align-items:center;justify-content:center;transition:all .3s ease-in-out}.loginpage .loginlist li:hover{background-color:#fff}.loginpage .loginlist li:hover img{filter:invert(1)}.loginpage .loginlist li a span{width:20px;height:20px}.loginpage .bottomtext a{color:#0d6efd}.loginpage .forgettext{background-color:#d9f5df;color:#3d5b43 !important;border-color:#3d5b43 !important}.buttonmain{font-size:15px}}/*# sourceMappingURL=style.min.css.map */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-LightItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-MediumItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Medium.woff2") format("woff2"), url("../../assets/fonts/Poppins-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Light.woff2") format("woff2"), url("../../assets/fonts/Poppins-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Italic.woff2") format("woff2"), url("../../assets/fonts/Poppins-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-ExtraBold.woff2") format("woff2"), url("../../assets/fonts/Poppins-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-ExtraLight.woff2") format("woff2"), url("../../assets/fonts/Poppins-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Thin.woff2") format("woff2"), url("../../assets/fonts/Poppins-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-ThinItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Black.woff2") format("woff2"), url("../../assets/fonts/Poppins-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Poppins-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Regular.woff2") format("woff2"), url("../../assets/fonts/Poppins-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-BlackItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Bold.woff2") format("woff2"), url("../../assets/fonts/Poppins-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-BoldItalic.woff2") format("woff2"), url("../../assets/fonts/Poppins-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #292108;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #000000;
+}
+
+body .App {
+    width: 420px;
+    margin: auto;
+    background-color: white;
+}
+
+body .App .btn-theme2 {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    border-color: #9C6B1F;
+}
+
+body .App .bg-theme2,
+.bg-theme1 {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108) !important;
+}
+
+body .App .border-theme1 {
+    border-color: #9C6B1F !important
+}
+
+body .text-theme1 {
+    color: #292108 !important;
+}
+
+body .modal .modal-content {
+    width: 420px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+*>ul::-webkit-scrollbar {
+    height: 0px !important
+}
+
+*>ul li::marker {
+    color: #133da7
+}
+
+*>.table::-webkit-scrollbar {
+    height: 0px !important
+}
+
+*>.table li::marker {
+    color: #133da7
+}
+
+.card-footer.groupbutton::-webkit-scrollbar {
+    height: 0px !important
+}
+
+.overflow-hidden-auto {
+    overflow: hidden auto
+}
+
+.overflow-wrap-brack-word {
+    overflow-wrap: break-word
+}
+
+.referralpage {
+    background-image: url(../image/referral/referral.svg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.referralpage .card {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    border-radius: 30px 30px 0px 0px
+}
+
+.referralpage .card .referrallisticon {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0
+}
+
+.referralpage .card .referrallisticon li {
+    width: 25%;
+    flex-direction: column;
+    display: flex
+}
+
+.referralpage .card .referrallisticon li .Anker {
+    font-size: 14px;
+    text-align: center;
+    color: white
+}
+
+.referralpage .card .referrallisticon li .Anker span {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 5px
+}
+
+.myReferral {
+    overflow: hidden
+}
+
+.myReferral .table table thead th {
+    font-size: 16px;
+    font-weight: 600;
+    color: #292108 !important;
+    white-space: nowrap;
+    padding: 5px 23px
+}
+
+.myReferral .table table tbody tr td {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000 !important;
+    white-space: nowrap;
+    padding: 5px 23px;
+    text-align: center
+}
+
+.myReferral .form-control:focus {
+    outline: none;
+    border-color: #133da7
+}
+
+.myReferral .zoom_im {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #f9fafd;
+    border: 1px solid #fff;
+    transition: all ease .5s;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    position: relative
+}
+
+.myReferral .zoom_im img {
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.myReferral .zoom_im h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 100%;
+    background: #fff
+}
+
+.faqsection .accordion .accordion-item .accordion-header .accordion-button {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    color: #fff;
+    box-shadow: none
+}
+
+.faqsection .accordion .accordion-item .accordion-header .accordion-button::after {
+    filter: invert(1)
+}
+
+.profilesection {
+    background-color: #fff
+}
+
+.profilesection .card {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.profilesection .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #292108
+}
+
+.profilesection .form-label span {
+    color: red
+}
+
+.profilesection .historycard .textin {
+    font-size: 14px
+}
+
+.profilesection .historycard .borderB {
+    border-bottom: 1px solid #9C6B1F
+}
+
+
+.homepage {
+    position: relative;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 30px 30px;
+    transition: height .5s ease;
+    background: url(../image/home/dribbble.gif), linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 0px;
+    filter: hue-rotate(45deg)
+}
+
+.homepage .card .leftSideContent .headingmain {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap
+}
+
+.homepage .card .leftSideContent .subHeading {
+    font-size: 13px;
+    white-space: nowrap
+}
+
+.homepage .card .robbtimage {
+    width: 90px;
+    height: auto;
+    animation: rotateAnimation 5s linear infinite, verticalMotion 2s ease-in-out infinite alternate
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes verticalMotion {
+    from {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(20px)
+    }
+}
+
+.homepage .arrowimag {
+    width: 20px;
+    height: 20px;
+    bottom: 0px;
+    animation: upDownAnimation 3s infinite
+}
+
+.homepage .arrowimag img {
+    filter: invert(1)
+}
+
+@keyframes upDownAnimation {
+
+    0%,
+    100% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-20px)
+    }
+}
+
+.homepage.full-height {
+    height: 100vh
+}
+
+.heartSection .referralstakeSection .referraltext {
+    font-size: 14px;
+    font-weight: 700;
+    color: #292108
+}
+
+.heartSection .referralstakeSection .referraltext span {
+    width: 20px;
+    height: 20px
+}
+
+.minsection .center {
+    width: 100px;
+    height: 100px;
+    /* position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border: 3px solid #9C6B1F;
+    border-radius: 50%
+}
+
+.minsection .circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    cursor: pointer
+}
+
+.minsection .wave {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    position: absolute;
+    top: 110%;
+    height: 200%;
+    width: 200%;
+    border-radius: 38%;
+    left: -50%;
+    transform: rotate(360deg);
+    transition: all 5s ease;
+    animation: wave 30s linear infinite
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(3600deg)
+    }
+}
+
+.minsection .circle:hover .wave {
+    top: 0%
+}
+
+.mainnetpage {
+    padding-bottom: 100px
+}
+
+.mainnetpage .heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-align: center
+}
+
+.mainnetpage p {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    text-align: center
+}
+
+.mainnetpage .topcard .unverifiedbalance {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000
+}
+
+.mainnetpage .topcard .unverifiedbalance span {
+    width: 20px;
+    height: 17px
+}
+
+.mainnetpage .topcard .textcolr1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 13px;
+    font-weight: 300;
+    color: #878787;
+    gap: .3rem
+}
+
+.mainnetpage .topcard .textcolr1 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffb027
+}
+
+.mainnetpage .topcard .textcolr2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 13px;
+    font-weight: 300;
+    color: #878787;
+    gap: .3rem
+}
+
+.mainnetpage .topcard .textcolr2 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff31ad
+}
+
+.mainnetpage .topcard .textcolr3 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 13px;
+    font-weight: 300;
+    color: #878787;
+    gap: .3rem
+}
+
+.mainnetpage .topcard .textcolr3 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7a3b96
+}
+
+.mainnetpage .topcard .progressbar .progress .progress-bar.color1 {
+    background-color: #ffb027
+}
+
+.mainnetpage .topcard .progressbar .progress .progress-bar.color2 {
+    background-color: #ff31ad
+}
+
+.mainnetpage .topcard .progressbar .progress .progress-bar .color3 {
+    background-color: #7a3b96
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button::after {
+    margin: unset;
+    margin-left: -2px;
+    padding: 0px;
+    margin-right: 5px
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span {
+    width: 20px;
+    height: 20px;
+    border-radius: 8px
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span.box1 {
+    background-color: #fdb127
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span.box2 {
+    background-color: #ff31ad
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button span.box3 {
+    background-color: #7a3b96
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: url(../image/icon/acc.svg)
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-header .accbtn {
+    border: 1px solid #b921b6;
+    color: #b921b6;
+    width: 50%;
+    height: 30px;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: bold
+}
+
+.mainnetpage .topcard .accordionSection .accordion .accordion-item .accordion-body .textAcc {
+    font-size: 14px;
+    color: #878787;
+    text-align: start
+}
+
+.mainnetpage .boxcolumn .box-content .colobox {
+    width: 50px;
+    height: 50px;
+    background-color: #f6ebfc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.mainnetpage .boxcolumn .box-content .colobox span {
+    width: 50px;
+    height: 50px
+}
+
+.mainnetpage .boxcolumn .box-content .text {
+    font-size: 12px;
+    font-weight: 600
+}
+
+.mainnetpage .boxcolumn .image {
+    width: 22px;
+    height: 22px
+}
+
+.mainnetpage .boxcolumn .image img {
+    transform: rotate(270deg)
+}
+
+.condowntimer {
+    margin: auto;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px)
+}
+
+.condowntimer .timeheading {
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase
+}
+
+.condowntimer .listcowntown {
+    display: flex;
+    justify-content: center
+}
+
+.condowntimer .listcowntown li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: .5em;
+    text-transform: uppercase;
+    color: #133da7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.condowntimer .listcowntown li span {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #9C6B1F;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292108;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px
+}
+
+.loginpage {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    height: 100vh;
+    position: relative;
+}
+
+/* .loginpage::after {
+    content: "";
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 420px;
+} */
+.loginpage h1{
+    font-size: 22px;
+}
+
+.loginpage .loginuserimage {
+    width: 150px;
+    height: 150px
+}
+
+.loginpage label {
+    width: auto
+}
+
+.loginpage .form-check {
+    display: flex;
+    align-items: center;
+    gap: .3rem
+}
+
+.loginpage .form-check .form-check-input {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    box-shadow: none
+}
+
+.loginpage .form-check .form-check-input:checked {
+    background-color: #133da7;
+    border-color: #133da7
+}
+
+.loginpage .form-check .form-check-label {
+    color: #fff
+}
+
+.loginpage input {
+    width: 100%;
+    border-radius: 30px;
+    height: 45px;
+    border: none;
+    box-shadow: 0px 0px 4px #eee;
+    padding: 17px
+}
+
+.loginpage input:focus {
+    outline: none
+}
+
+.loginpage .show {
+    width: 30px;
+    height: 23px;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.loginpage .hide {
+    width: 30px;
+    height: 23px;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.loginpage .error {
+    color: red
+}
+
+.loginpage .loginlist li {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #133da7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out
+}
+
+.loginpage .loginlist li:hover {
+    background-color: #fff
+}
+
+.loginpage .loginlist li:hover img {
+    filter: invert(1)
+}
+
+.loginpage .loginlist li a span {
+    width: 20px;
+    height: 20px
+}
+
+.loginpage .bottomtext a {
+    color: #0d6efd
+}
+
+.loginpage .forgettext {
+    background-color: #d9f5df;
+    color: #3d5b43 !important;
+    border-color: #3d5b43 !important
+}
+
+.loginpage .btnlogin {
+    transition: all 0.3s ease-in-out;
+    color: black;
+    border: 1px solid;
+    border-color: #9C8429;
+}
+
+.loginpage .btnlogin:hover {
+    color: white;
+    border-color: white;
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+}
+
+.buttonmain {
+    font-size: 15px
+}
+
+/* Securitypage1 css Start */
+.Securitypage1 {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.Securitypage1 .headingsecurity {
+    font-size: 28px;
+    line-height: 1.2;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Securitypage1 .secp {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.Securitypage1 .securityimage {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Securitypage1 .form-check {
+    margin-bottom: 10px;
+}
+
+.Securitypage1 .form-check .form-check-input {
+    box-shadow: none;
+    border-color: #ffa100;
+}
+
+.Securitypage1 .form-check .form-check-input:checked {
+    background-color: #ff9d00;
+    border-color: #ffa100;
+}
+
+.Securitypage1 .form-check .form-check-label {
+    font-size: 14px;
+    color: white;
+}
+
+.Securitypage1 .submitbtn {
+    transition: all 0.3s ease-in-out;
+    color: black;
+    border: 1px solid;
+    border-color: #9C8429;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.Securitypage1 .submitbtn:hover {
+    color: white;
+    border-color: #4F3F0D;
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+}
+
+.securityimage {
+    perspective: 1000px;
+    /* Helps with 3D rotation effect */
+}
+
+#faceImage {
+    transition: transform 0.1s;
+    /* Smooth movement */
+    transform-origin: center center;
+}
+
+/* SecurityWallet */
+
+.SecurityWallet {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.SecurityWallet .headingsecurity {
+    font-size: 28px;
+    line-height: 1.2;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.SecurityWallet .secp {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.SecurityWallet .submitbtn {
+    transition: all 0.3s ease-in-out;
+    color: black;
+    border: 1px solid;
+    border-color: #9C8429;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.SecurityWallet .submitbtn:hover {
+    color: white;
+    border-color: #4F3F0D;
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+}
+
+.SecurityWallet .form-check {
+    margin-bottom: 10px;
+}
+
+.SecurityWallet .form-check .form-check-input {
+    box-shadow: none;
+    border-color: #ffa100;
+}
+
+.SecurityWallet .form-check .form-check-input:checked {
+    background-color: #ff9d00;
+    border-color: #ffa100;
+}
+
+.SecurityWallet .form-check .form-check-label {
+    font-size: 14px;
+    color: white;
+}
+
+.SecurityWallet .submitbtn {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    border: 1px solid white;
+    border-color: #9C8429;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.SecurityWallet .seccard {
+    background: transparent;
+    border: 0;
+}
+
+.SecurityWallet .seccard .progressbar {
+    counter-reset: step;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.SecurityWallet .seccard .progressbar li {
+    font-size: 0.75rem;
+    line-height: 140%;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    color: #bbc0c5;
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.SecurityWallet .seccard .progressbar li.active {
+    color: #0d6efd;
+}
+
+.SecurityWallet .seccard .progressbar li::before {
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 30px;
+    border: 2px solid #848c9629;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #24272a;
+    z-index: 0;
+    position: relative;
+}
+
+.SecurityWallet .seccard .progressbar li.active::before {
+    border-color: #0d6efd;
+}
+
+.SecurityWallet .seccard .progressbar li::after {
+    width: calc(100% - 26px);
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #141618;
+    top: 15px;
+    z-index: -1;
+}
+
+.SecurityWallet .seccard .progressbar li:first-child::after {
+    left: 41px;
+}
+
+.SecurityWallet .seccard .progressbar li:last-child::after {
+    left: -15px;
+}
+
+.SecurityWallet .seccard .progressbar .stepActive::before {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.SecurityWallet .seccard .progressbar .stepActive::after {
+    background-color: #0d6efd;
+}
+
+.SecurityWallet .seccard .progressbar .step2 {
+    color: #0d6efd;
+}
+
+.SecurityWallet .seccard .progressbar .step2::before {
+    border: 2px solid #0d6efd;
+}
+
+.SecurityWallet .seccard .progressbar .step3confirm {
+    color: #0d6efd;
+}
+
+.SecurityWallet .seccard .progressbar .step3confirm::before {
+    border: 2px solid #0d6efd;
+}
+
+.SecurityWallet .seccard .tipsHeading {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.SecurityWallet .seccard .tipslist {}
+
+.SecurityWallet .seccard .tipslist li {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.SecurityWallet .seccard .tipslist li::marker {
+    color: white;
+}
+
+.SecurityWallet .seccard .listclipboard {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.SecurityWallet .seccard .listclipboard li {
+    width: 30%;
+    font-size: 14px;
+    color: white;
+}
+
+.SecurityWallet .seccard .listclipboard li::marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SecurityWallet .seccard .listclipboard li span {
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 80px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SecurityWallet .copyclipboardbtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SecurityWallet .copyclipboardbtn .hidebtn {
+    background: transparent;
+    border: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.SecurityWallet .copyclipboardbtn .copybtn {
+    font-size: 14px;
+    color: white;
+    background: transparent;
+    border: 0;
+}
+
+/* Initial visibility of list */
+#listclipboard.hide-text .box {
+    opacity: 0;
+}
+
+/* Red background and opacity for hidden list */
+#listclipboard.red-bg {
+    background-color: #000000cc;
+    opacity: 0.5;
+}
+
+/* Home Page And Header */
+
+/* Nav css */
+.nav {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    height: 50px;
+}
+
+.nav .logo {
+    width: 60px;
+    height: 50px;
+}
+
+.nav .Notifictionicon {
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9C6B1F;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .Notifictionicon:hover {
+    background: #292108;
+}
+
+/* Nav css End */
+/* Home Page css start */
+.HomePage {}
+
+.HomePage .slider {}
+
+.HomePage .slider .card .card-image {}
+
+.HomePage .slider .owl-nav {
+    display: none;
+}
+
+.HomePage .slider .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.HomePage .slider .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #292108;
+}
+
+.HomePage .slider .owl-dots .owl-dot.active {
+    background: #292108;
+}
+
+/* Announcementsection Css Start */
+.Announcementsection {}
+
+.Announcementsection .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 12px;
+    flex-direction: row;
+    box-shadow: 1px 0px 10px 2px #eee;
+}
+
+.Announcementsection .listitems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.5rem;
+    box-shadow: 0px 0px 10px #eee;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.Announcementsection .listitems li {
+    width: 30%;
+    height: 100px;
+    border-radius: 10px;
+    background: #9c76232e;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Announcementsection .listitems li:hover {
+    background: #9c7623f7;
+}
+
+.Announcementsection .listitems li:hover .Anker .textli {
+    color: white;
+}
+
+.Announcementsection .listitems li .Anker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Announcementsection .listitems li .Anker .imagebox {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Announcementsection .listitems li .Anker .textli {
+    font-size: 13px;
+    font-weight: 400;
+    color: #292108;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* Announcementsection Css Start */
+
+/* Bot Status Css Start */
+.BotStatus {}
+
+.BotStatus .Heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #292108;
+    margin-bottom: 10px;
+}
+
+.BotStatus .card {
+    border: 1px dashed #292108;
+}
+
+.BotStatus .card .leftsidebox {
+    width: 73%;
+}
+
+.BotStatus .card .leftsidebox .botbutton {
+    border: 1.4px solid #292108;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    width: fit-content;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0px 5px;
+}
+
+.BotStatus .card .leftsidebox .botbutton span {
+    height: 25px;
+    width: 90px;
+    font-size: 13px;
+    color: #9c6b1f;
+    box-shadow: 0px 0px 10px #828282;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.BotStatus .card .leftsidebox p {
+    font-size: 13px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.BotStatus .card .leftsidebox p span {
+    color: #9c6b1f;
+}
+
+.BotStatus .card .leftsidebox .flow {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    font-size: 14px;
+    color: white;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.BotStatus .card .rightimage {
+    width: 23%;
+
+}
+
+.BotStatus .card .rightimage .image {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bot Status Css End */
+
+/* Un Trade P&L Analysis css Start */
+.tradeAnalysus {}
+
+.tradeAnalysus .Heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #292108;
+    margin-bottom: 10px;
+}
+
+.tradeAnalysus .card {
+    border: 1.4px solid #292108;
+    border-radius: 12px;
+}
+
+.tradeAnalysus .card .card-body {
+    /* padding: ; */
+}
+
+.tradeAnalysus .card .card-topHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tradeAnalysus .card .card-topHeading .heading {
+    font-size: 13px;
+    color: black;
+}
+
+.tradeAnalysus .card .card-topHeading .arrow {
+    color: #292108;
+}
+
+.tradeAnalysus .card .miningusdt {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 18px;
+    color: black;
+}
+
+.tradeAnalysus .card .miningusdt span {
+    color: #53CE95;
+}
+
+.tradeAnalysus .card .miningusdt span i {
+    margin-right: 5px;
+    transform: rotate(34deg);
+}
+
+.tradeAnalysus .card .sammtext {
+    font-size: 11px;
+    color: rgb(68, 68, 68);
+}
+
+.tradeAnalysus .card .marketlist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tradeAnalysus .card .marketlist li {
+    width: 33%;
+
+}
+
+.tradeAnalysus .card .marketlist li:last-child .days {
+    text-align: end;
+}
+
+.tradeAnalysus .card .marketlist li:last-child .num {
+    text-align: end;
+}
+
+.tradeAnalysus .card .marketlist li .days {
+    font-size: 13px;
+    font-weight: 400;
+    color: #404040;
+}
+
+.tradeAnalysus .card .marketlist li .num {
+    font-size: 13px;
+    color: #53CE95;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.tradeAnalysus .card .card-footer {
+    background: transparent;
+}
+
+.tradeAnalysus .card .card-footer .footerheading {
+    font-size: 14px;
+    color: #404040;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+.tradeAnalysus .card .card-footer .footerp {
+    font-size: 11px;
+    color: #404040;
+}
+
+/* cardcoinsec  Start*/
+.cardcoinsec .binancecard {
+    background-image: url(../image/home/backgroundcard.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+
+.cardcoinsec .binancecard .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardcoinsec .binancecard .cardHeader .box {}
+
+.cardcoinsec .binancecard .cardHeader .box .card-headfing {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cardcoinsec .binancecard .cardHeader .box .mainusdt {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.cardcoinsec .binancecard .cardHeader .box .smalltext {
+    font-size: 13px;
+    color: white;
+}
+
+.cardcoinsec .binancecard .cardHeader .image {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardcoinsec .binancecard .cardlist {}
+
+.cardcoinsec .binancecard .marketlist {
+    display: flex;
+    align-items: center;
+}
+
+.cardcoinsec .binancecard .marketlist li {
+    width: 33%;
+}
+
+.cardcoinsec .binancecard .marketlist li .days {
+    color: white;
+    font-size: 13px;
+}
+
+.cardcoinsec .binancecard .marketlist li .num {
+    color: white;
+    font-size: 13px;
+}
+
+.cardcoinsec .binancecard .marketlist li:last-child .days {
+    text-align: end;
+}
+
+.cardcoinsec .binancecard .marketlist li:last-child .num {
+    text-align: end;
+}
+
+/* cardcoinsec  End*/
+
+/* bootmsec Start */
+.bootmsec .Heading {
+    font-size: 29px;
+    font-weight: 800;
+    color: #868D95;
+}
+
+.bootmsec p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #868D95;
+}
+
+/* Footer start */
+.footerbottomnav {
+    background: white;
+    width: 420px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footerbottomnav ul {
+    padding: 8px 0px 10px 0px;
+}
+
+.footerbottomnav ul li {
+    text-align: center;
+    background: #9c6b1f4d;
+    /* height: 40px; */
+    width: 60px;
+    border-radius: 8px;
+    padding: 9px 6px;
+}
+
+.footerbottomnav ul li .Anker {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #292108;
+    font-weight: 400;
+
+}
+
+.footerbottomnav ul li .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    top: -25px;
+
+}
+
+/* Portfolio tabs css start */
+.Portfoliotabs {}
+
+.Portfoliotabs .nav {
+    height: auto;
+    background: transparent;
+    border-bottom: 1px solid #292108;
+}
+
+.Portfoliotabs .nav .nav-item {
+    background-color: transparent;
+    border-radius: 0;
+    padding-bottom: 4px;
+}
+
+.Portfoliotabs .nav .nav-item .nav-link {
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #292108;
+    border-radius: 0;
+}
+
+.Portfoliotabs .nav .nav-item .nav-link.active {
+    color: #0d6efd
+}
+
+/* walletcard css Start */
+.walletcard {}
+
+.walletcard .HeadingWallet {
+    font-size: 20px;
+    font-weight: 700;
+    color: #292108;
+    margin-bottom: 5px;
+}
+
+.walletcard .Walletcard {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+}
+
+.walletcard .Walletcard .card-Heading {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.walletcard .Walletcard .paymrnt {
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+}
+
+.walletcard .Walletcard .smalltext {
+    color: white;
+    font-size: 13px;
+}
+
+.walletcard .Walletcard .GroupBtuun {
+    margin-top: 10px;
+}
+
+.walletcard .Walletcard .GroupBtuun .mainbtn {
+    background: #efb102;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+.walletcard .hostorheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.walletcard .hostorheading .headingHistory {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+}
+
+.walletcard .hostorheading .modalbtn {
+    padding: 0px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9C6B1F;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.walletcard .hostorheading .modalbtn:hover {
+    background: #efb102;
+}
+
+.walletcard .walletlist {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.walletcard .walletlist li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F8F8FA;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+}
+
+.walletcard .walletlist li .boxtext {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.walletcard .walletlist li .boxtext .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CECECE;
+}
+
+.walletcard .walletlist li .boxtext .textbxo {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    /* gap: 0.3rem; */
+}
+
+.walletcard .walletlist li .boxtext .textbxo .text {
+    font-size: 13px;
+    color: #404040;
+    font-weight: 600;
+    text-align: start;
+}
+
+.walletcard .walletlist li .boxtext .textbxo .Date {
+    font-size: 12px;
+    color: #404040;
+    font-weight: 400;
+    text-align: start;
+}
+
+.walletcard .walletlist li .boxtext .textbxo .tranctionud {
+    font-size: 11px;
+    color: #404040;
+    font-weight: 400;
+}
+
+.walletcard .walletlist li .paymettext {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2D9C57;
+}
+
+/* Profilehed Section css Start */
+.Profilehed .topcard {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    border: 0;
+    border-radius: 0;
+    padding: 15px 5px;
+}
+
+.Profilehed .topcard .card_Icon_text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Profilehed .topcard .card_Icon_text .card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.Profilehed .topcard .card_Icon_text .card-icon img {
+    border-radius: 50%;
+}
+
+.Profilehed .topcard .card_Icon_text .textrightbox {}
+
+.Profilehed .topcard .card_Icon_text .textrightbox .name {
+    font-size: 14px;
+    color: white;
+}
+
+.Profilehed .topcard .card_Icon_text .textrightbox .Uidname {
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Profilehed .topcard .card_Icon_text .textrightbox .mail {
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Profilehed .topcard .arrow {
+    color: #e2b110;
+}
+
+.listProfile {}
+
+.listProfile .profilelist {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.listProfile .profilelist li {
+    height: 40px;
+    border-radius: 12px;
+    background: white;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 13px 3px #90caf926;
+    padding: 0px 10px;
+}
+
+.listProfile .profilelist li .listin .image {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listProfile .profilelist li .listin span i {
+    margin-right: 3px;
+}
+
+.listProfile .profilelist li .listin {
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #292108;
+    font-weight: 600;
+
+}
+
+.listProfile .profilelist li .listin .icontext {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Deposite Page Css Start */
+.Deposite .back {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #24272a;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.Deposite .HeadingWallet {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.Deposite .Depositecard {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    border: 0;
+    border-radius: 0px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Deposite .Depositecard .imagedeposite {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Deposite .bottomheading {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.Deposite ol li {
+    font-size: 14px;
+    color: black;
+}
+
+.Deposite button {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    width: 100%;
+}
+
+/* DepositModal css start */
+.DepositModal .modal-content {}
+
+.DepositModal .modal-content .modal-header {
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+
+}
+
+.DepositModal .modal-content .modal-header .modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid #292108;
+}
+
+.DepositModal .modal-content .Qrcodebox {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.DepositModal .modal-content .form-label {
+    text-align: center;
+    font-size: 14px;
+    color: #292108;
+    display: block;
+}
+
+.DepositModal .modal-content .form-control {
+    font-size: 14px;
+    color: #292108;
+    background: #6969694f;
+    border-radius: 30px;
+    height: 35px;
+    box-shadow: none;
+    border: 0;
+}
+
+.DepositModal .modal-content .copyicon {
+    position: absolute;
+    top: 5px;
+    right: 17px;
+    color: #24272a;
+}
+
+.DepositModal .modal-content .form-text {
+    background: #e9a642;
+    border-radius: 5px;
+    color: #3c3939;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+.DepositModal .btnprimary {
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    color: white;
+}
+
+/* Personal Information Page Css Start */
+.PersonalInformationPage {}
+
+.PersonalInformationPage .back {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #24272a;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.PersonalInformationPage .HeadingWallet {
+    font-size: 16px;
+    font-weight: 600;
+    color: #292108;
+}
+
+.PersonalInformationPage .PersonalInformationList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.PersonalInformationPage .PersonalInformationList li {
+    box-shadow: 0px 0px 10px #eee;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 13px;
+    height: 35px;
+}
+
+.PersonalInformationPage .PersonalInformationList li .Anker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.PersonalInformationPage .PersonalInformationList li .Anker .name {
+    font-size: 13px;
+    color: #4f4f4f;
+    font-weight: 400;
+}
+
+.PersonalInformationPage .PersonalInformationList li .Anker .username {
+    font-size: 13px;
+    color: #4f4f4f;
+    font-weight: 400;
+}
+
+.PersonalInformationPage .PersonalInformationList li .Anker .username .copy {
+    font-size: 14px;
+    color: #4f4f4f;
+}
+
+.PersonalInformationPage .PersonalInformationList li .Anker .username .Avatr {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Notification Css Start */
+
+
+.NotifictionPage .back {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #24272a;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.NotifictionPage .HeadingWallet {
+    font-size: 16px;
+    font-weight: 600;
+    color: #292108;
+}
+
+.NotifictionPage .NotifictionPageList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.NotifictionPage .NotifictionPageList li {
+    box-shadow: 0px 0px 10px #808080;
+    margin-bottom: 10px;
+    background: rgb(216 216 216);
+    border-radius: 13px;
+    height: 90px;
+    padding: 5px 10px;
+}
+
+.NotifictionPage .NotifictionPageList li .icontextbox {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.NotifictionPage .NotifictionPageList li .icontextbox .textbox {}
+
+.NotifictionPage .NotifictionPageList li .icontextbox .textbox .heading {
+    font-size: 13px;
+    color: #292108;
+    font-weight: 400;
+}
+
+.NotifictionPage .NotifictionPageList li .icontextbox .textbox p {
+    font-size: 12px;
+    color: #292108;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.NotifictionPage .NotifictionPageList li .icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.NotifictionPage .NotifictionPageList li .date {
+    text-align: end;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #292108;
+    font-weight: 400;
+}
+.Privacypolicypage p{
+    font-size: 14px;
+}
+.Privacypolicypage ul li{
+    font-size: 14px;
+}
+
+/* Responsive 320 to 576px */
+@media (min-width: 320px) and (max-width: 575.99px) {
+    .Privacypolicypage p{
+        font-size: 12px;
+    }
+    .Privacypolicypage ul li{
+        font-size: 12px;
+    }
+    .App {
+        width: 100% !important;
+    }
+    .Announcementsection .listitems li{
+        height: 70px;
+    }
+    .Announcementsection .listitems li .Anker .imagebox{
+        width: 30px;
+        height: 20px;
+    }
+    .Announcementsection .listitems li .Anker .textli{
+        font-size: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .Announcementsection .card{
+        padding: 5px 15px;
+    }
+    .Announcementsection .card .Heading{
+        font-size: 14px;
+    }
+    .BotStatus .Heading{
+        font-size: 15px;
+    }
+    .BotStatus .card .leftsidebox .botbutton{
+        font-size: 12px;
+    }
+    .BotStatus .card .leftsidebox .botbutton span{
+        height: 22px;
+    }
+    .BotStatus .card .leftsidebox p{
+        font-size: 12px;
+    }
+    .BotStatus .card .rightimage .image {
+        height: 60px;
+        width: 60px;
+    }
+    .BotStatus .card .leftsidebox .flow{
+        font-size: 12px;
+    }
+    .tradeAnalysus .Heading{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .tradeAnalysus .card .marketlist li .days{
+        font-size: 12px;
+    }
+    .tradeAnalysus .card .marketlist li .num{
+        font-size: 12px
+    }
+    .tradeAnalysus .card .sammtext{
+        margin-bottom: 5px;
+    }
+    .tradeAnalysus .card .miningusdt{
+        font-size: 16px;
+    }
+    .tradeAnalysus .card .card-footer .footerp{
+        font-size: 10px;
+    }
+    .cardcoinsec .binancecard .cardHeader .box .card-headfing{
+        font-size: 12px
+    }
+    .cardcoinsec .binancecard .cardHeader .box .mainusdt{
+        font-size: 16px;
+    }
+    .cardcoinsec .binancecard .cardHeader .image{
+        width: 40px;
+        height: 40px;
+    }
+    .cardcoinsec .binancecard .marketlist li .days{
+        font-size: 10px;
+    }
+    .cardcoinsec .binancecard .marketlist li .num{
+        font-size: 10px;
+    }
+    .cardcoinsec .binancecard .cardHeader .box .smalltext{
+        font-size: 10px;
+    }
+    .bootmsec .Heading{
+        font-size: 17px;
+    }
+    .footerbottomnav{
+        width: 100%;
+    }
+    .footerbottomnav ul li{
+        padding: 5px 5px;
+    }
+    .footerbottomnav ul li .Anker{
+        font-size: 12px;
+    }
+    .walletcard .HeadingWallet{
+        font-size: 16px;
+    }
+    .walletcard .Walletcard .paymrnt{
+        font-size: 15px;
+    }
+    .walletcard .Walletcard .smalltext{
+        font-size: 12px;
+    }
+    .walletcard .Walletcard .GroupBtuun .mainbtn{
+        font-size: 12px;
+    }
+    .walletcard .hostorheading .headingHistory{
+        font-size: 16px;
+    }
+    .walletcard .hostorheading .modalbtn{
+        width: 30px;
+        height: 30px;
+    }
+    .walletcard .walletlist li .boxtext .textbxo .text{
+        font-size: 12px;
+    }
+    .walletcard .walletlist li .boxtext .textbxo .Date{
+        font-size: 11px;
+    }
+    .walletcard .walletlist li .paymettext{
+        font-size: 13px;
+    }
+    .walletcard .walletlist li .boxtext .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .Deposite .back{
+        width: 20px;
+        height: 20px;
+    }
+    .Deposite .HeadingWallet{
+        font-size: 16px;
+    }
+    .Deposite .bottomheading{
+        font-size: 15px;
+    }
+    .Deposite ol li{
+        font-size: 13px;
+    }
+    body .modal .modal-content{
+        width: 100%;
+    }
+    .referralpage .card .referrallisticon li .Anker span{
+        width: 40px;
+        height: 40px;
+    }
+    .referralpage .card .referrallisticon li .Anker{
+        font-size: 12px;
+    }
+    .PersonalInformationPage .HeadingWallet{
+        font-size: 14px;
+    }
+    .PersonalInformationPage .back{
+        width: 20px;
+        height: 20px;
+    }
+    .PersonalInformationPage .PersonalInformationList li .Anker .name{
+        font-size: 12px;
+    }
+    .PersonalInformationPage .PersonalInformationList li .Anker .username{
+        font-size: 12px;
+    }
+    .listProfile .profilelist li .listin{
+        font-size: 12px;
+    }
+    .Profilehed .topcard .card_Icon_text .textrightbox .name{
+        font-size: 13px;
+    }
+    .Profilehed .topcard .card_Icon_text .textrightbox .Uidname{
+        font-size: 11px;
+    }
+    .Profilehed .topcard .card_Icon_text .textrightbox .mail{
+        font-size: 11px;
+    }
+    .loginpage h1{
+        font-size: 16px;
+    }
+    .loginpage input{
+        height: 35px;
+    }
+    .loginpage .show{
+        width: 30px;
+        height: 20px;
+        top: 8px;
+    }.loginpage .hide{
+        width: 30px;
+        height: 20px;
+        top: 8px;
+    }
+    .loginpage .form-check .form-check-label{
+        font-size: 14px;
+    }
+    .loginpage .Anker{
+        font-size: 14px;
+    }
+    .loginpage .btnlogin{
+        font-size: 14px;
+    }
+    .loginpage .bottomtext{
+        font-size: 14px;
+    }
+    .Securitypage1 .headingsecurity{
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .Securitypage1 .secp{
+        font-size: 12px;
+    }
+    .Securitypage1 .form-check .form-check-label{
+        font-size: 13px;
+    }
+    .Securitypage1 .submitbtn{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .SecurityWallet .seccard .progressbar li{
+        font-size: 10px;
+    }
+    .SecurityWallet .headingsecurity{
+        font-size: 18px;
+    }
+    .SecurityWallet .secp{
+        font-size: 12px;
+    }
+    .SecurityWallet .submitbtn{
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }.SecurityWallet .seccard .tipslist li{
+        font-size: 13px;
+    }
+    .SecurityWallet .seccard .listclipboard{
+        padding-left: 10px;
+    }
+    .SecurityWallet .seccard .listclipboard li{
+        font-size: 10px;
+        width: 27%;
+    }
+    .SecurityWallet .seccard .listclipboard li span{
+        width: 55px;
+        font-size: 11px;
+    }
+    .SecurityWallet .copyclipboardbtn .hidebtn{
+        font-size: 12px;
+    }
+    .SecurityWallet .copyclipboardbtn .copybtn{
+        font-size: 12px;
+    }
+}

@@ -40,7 +40,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <!-- Link  -->
-    <link rel="stylesheet" href="./assets/libs/font-awsome/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/libs/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/google-fonts.min.css">
@@ -48,75 +48,69 @@
 
 </head>
 <body>
-    <div class="container-fluid loginpage h-100">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 d-flex flex-column align-items-center justify-content-center h-100 ">
-                    <div class="row mx-0 h-100">
-                        <div class="col-12 px-0 d-flex align-items-center justify-content-center flex-column"> 
-                            <div class="loginuserimage mx-auto pb-3"><img class="w-100 h-100" src="./assets/image/login/loginicon.svg" alt="loginimage"></div>
-                            <h1 class="loginheading fw-bold text-white text-center mb-2">Welcome TO Sign-Up</h1>
-                            <p class="text-white text-center mb-4">Enter Your Personal Details and start journey with us</p>
-                        </div>
-                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                            <form action="">
-                                <div class="row mx-0 gy-3">
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100">
-                                            <input type="text" id="sponserid" name="sponserid" placeholder="sponser id" required="">
-                                            <span id="sponser id" class="error"></span>
+    <div class="App">
+        <div class="container-fluid loginpage h-100">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center h-100 ">
+                        <div class="row mx-0 h-100">
+                            <div class="col-12 px-0 d-flex align-items-center justify-content-center flex-column"> 
+                                <div class="loginuserimage mx-auto pb-3"><img class="w-100 h-100" src="./assets/image/login/loginicon.svg" alt="loginimage"></div>
+                                <h1 class="loginheading fw-bold text-white text-center mb-2">Welcome TO Sign-Up</h1>
+                                <p class="text-white text-center mb-4">Enter Your Personal Details and start journey with us</p>
+                            </div>
+                            <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                <form action="">
+                                    <div class="row mx-0 gy-3">
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100">
+                                                <input type="text" id="sponserid" name="sponserid" placeholder="sponser id" required="">
+                                                <span id="sponser id" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100">
+                                                <input type="text" id="sponserName" name="Your name" placeholder="Your Name" required="">
+                                                <span id="sponser Name" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100">
+                                                <input type="text" id="enteremailid" name="enteremailid" placeholder="Enter Email Id" required="">
+                                                <span id="enteremailid" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100">
+                                                <input type="number" id="entermobilenumber" name="entermobilenumber" placeholder="Enter Mobile Number" required="">
+                                                <span id="entermobilenumber" class="error"></span>
+                                            </div>
+                                        </div> -->
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100 position-relative">
+                                                <input type="password" id="passwordB" class="password-input" placeholder="Password" name="passwordB" required="">
+                                                <div class="show showB" data-target="passwordB"><img class="w-100 h-100" src="./assets/image/login/eye.svg" alt="eye"></div>
+                                                <div class="hide hideB d-none" data-target="passwordB"><img class="w-100 h-100" src="./assets/image/login/eye-slash.svg" alt="eye"></div>
+                                                <span id="passwordErrorB" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column w-100 position-relative">
+                                                <input type="password" id="passwordC" class="password-input" placeholder="Confirm Password" name="passwordC" required="">
+                                                <div class="show showC" data-target="passwordC"><img class="w-100 h-100" src="./assets/image/login/eye.svg" alt="eye"></div>
+                                                <div class="hide hideC d-none" data-target="passwordC"><img class="w-100 h-100" src="./assets/image/login/eye-slash.svg" alt="eye"></div>
+                                                <span id="passwordErrorC" class="error"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 px-0 d-flex align-items-center justify-content-center">
+                                            <a href="./Security1.html" type="submit" class="btn bg-white px-5 py-2 fw-bold rounded-pill">Sign Up</a>
+                                        </div>
+                                        <div class="col-12 px-0 text-center">
+                                            <p class="text-white bottomtext">Already have an Account<a class="px-1 text-white" href="login.html">Login</a></p>
                                         </div>
                                     </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100">
-                                            <input type="text" id="sponserName" name="sponsername" placeholder="sponser Name" required="">
-                                            <span id="sponser Name" class="error"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100">
-                                            <input type="text" id="enterYourName" name="enterYourName" placeholder="Enter Your Name" required="">
-                                            <span id="enterYourName" class="error"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100">
-                                            <input type="text" id="enteremailid" name="enteremailid" placeholder="Enter Email Id" required="">
-                                            <span id="enteremailid" class="error"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100">
-                                            <input type="number" id="entermobilenumber" name="entermobilenumber" placeholder="Enter Mobile Number" required="">
-                                            <span id="entermobilenumber" class="error"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100 position-relative">
-                                            <input type="password" id="passwordA" class="password-input" placeholder="password" name="passwordA" required="">
-                                            <div class="show showA" data-target="passwordA"><img class="w-100 h-100" src="./assets/image/login/eye.svg" alt="eye"></div>
-                                            <div class="hide hideA d-none" data-target="passwordA"><img class="w-100 h-100" src="./assets/image/login/eye-slash.svg" alt="eye"></div>
-                                            <span id="passwordErrorA" class="error"></span>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <div class="d-flex flex-column w-100 position-relative">
-                                            <input type="password" id="passwordB" class="password-input" placeholder="password" name="passwordB" required="">
-                                            <div class="show showB" data-target="passwordB"><img class="w-100 h-100" src="./assets/image/login/eye.svg" alt="eye"></div>
-                                            <div class="hide hideB d-none" data-target="passwordB"><img class="w-100 h-100" src="./assets/image/login/eye-slash.svg" alt="eye"></div>
-                                            <span id="passwordErrorB" class="error"></span>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 px-0 d-flex align-items-center justify-content-center">
-                                        <button type="submit" class="btn bg-white px-5 py-2 fw-bold rounded-pill">Sign Up</button>
-                                    </div>
-                                    <div class="col-12 px-0 text-center">
-                                        <p class="text-white bottomtext">Already have an Account<a class="px-1" href="login.html">Login</a></p>
-                                    </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,6 +135,25 @@
                 $('#' + targetId).attr('type', 'password');
                 $(this).addClass('d-none');
                 $('.show[data-target="' + targetId + '"]').removeClass('d-none');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const showC = document.querySelector('.showC');
+            const hideC = document.querySelector('.hideC');
+            const passwordC = document.getElementById('passwordC');
+            
+            showC.addEventListener('click', () => {
+                passwordC.type = 'text';
+                showC.classList.add('d-none');
+                hideC.classList.remove('d-none');
+            });
+            
+            hideC.addEventListener('click', () => {
+                passwordC.type = 'password';
+                hideC.classList.add('d-none');
+                showC.classList.remove('d-none');
             });
         });
     </script>
