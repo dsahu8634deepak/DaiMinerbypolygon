@@ -2225,6 +2225,9 @@ color: #292108;
 }
 /* Responsive 320 to 576px */
 @media (min-width: 320px) and (max-width: 575.99px) {
+    body{
+        background: white;
+    }
     .Privacypolicypage p{
         font-size: 12px;
     }
