@@ -705,7 +705,9 @@ img {
 
 .condowntimer .listcowntown {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    padding-left: 0;
+    
 }
 
 .condowntimer .listcowntown li {
@@ -2223,10 +2225,23 @@ color: #292108;
 .withrawsection p{
     font-size: 14px;
 }
+/*  */
+.signup{
+    height: 100% !important;
+}
+.mobiledexktopview{
+    height: 100% !important;
+}
 /* Responsive 320 to 576px */
-@media (min-width: 320px) and (max-width: 575.99px) {
+@media (min-width: 320px) and (max-width: 600px) {
+    .signup{
+        height: 100vh !important;
+    }
+    .mobiledexktopview{
+        height: 100vh !important;
+    }
     body{
-        background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+        /* background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108); */
     }
     .Privacypolicypage p{
         font-size: 12px;
