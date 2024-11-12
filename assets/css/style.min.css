@@ -2194,7 +2194,33 @@ img {
 .Privacypolicypage ul li{
     font-size: 14px;
 }
+/* Withdraw Pagwe css */
+.withrawsection{
 
+}
+.withrawsection .form-label{
+    font-size: 14px;
+    color: #292108;
+    font-weight: 600;
+}
+.withrawsection .form-control{
+height: 35px;
+border-radius: 9px;
+border-color: #24272a;
+box-shadow: 0px 0px 10px #eee;
+font-size: 14px;
+}
+.withrawsection .withdrawcard{
+    box-shadow: 0px 0px 10px #eee;
+}
+.withrawsection .withdrawcard .left{
+font-size: 14px;
+color: #292108;
+
+}
+.withrawsection p{
+    font-size: 14px;
+}
 /* Responsive 320 to 576px */
 @media (min-width: 320px) and (max-width: 575.99px) {
     .Privacypolicypage p{
