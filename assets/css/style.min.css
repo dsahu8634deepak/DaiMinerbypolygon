@@ -2226,7 +2226,7 @@ color: #292108;
 /* Responsive 320 to 576px */
 @media (min-width: 320px) and (max-width: 575.99px) {
     body{
-        background: white;
+        background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
     }
     .Privacypolicypage p{
         font-size: 12px;
