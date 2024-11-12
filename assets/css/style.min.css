@@ -1174,7 +1174,9 @@ img {
     align-items: center;
     justify-content: center;
 }
-
+.SecurityWallet .seccard .listclipboard li span input{
+    height: 28px;
+}
 .SecurityWallet .copyclipboardbtn {
     display: flex;
     align-items: center;
@@ -2468,6 +2470,10 @@ color: #292108;
         width: 27%;
     }
     .SecurityWallet .seccard .listclipboard li span{
+        width: 55px;
+        font-size: 11px;
+    }
+    .SecurityWallet .seccard .listclipboard li span input{
         width: 55px;
         font-size: 11px;
     }
