@@ -180,6 +180,10 @@ body .App .border-theme1 {
     border-color: #9C6B1F !important
 }
 
+body .App .fs-14 {
+    font-size: 14px;
+}
+
 body .text-theme1 {
     color: #292108 !important;
 }
@@ -707,7 +711,7 @@ img {
     display: flex;
     justify-content: center;
     padding-left: 0;
-    
+
 }
 
 .condowntimer .listcowntown li {
@@ -752,7 +756,7 @@ img {
     left: 0;
     width: 420px;
 } */
-.loginpage h1{
+.loginpage h1 {
     font-size: 22px;
 }
 
@@ -1176,9 +1180,11 @@ img {
     align-items: center;
     justify-content: center;
 }
-.SecurityWallet .seccard .listclipboard li span input{
+
+.SecurityWallet .seccard .listclipboard li span input {
     height: 28px;
 }
+
 .SecurityWallet .copyclipboardbtn {
     display: flex;
     align-items: center;
@@ -1215,7 +1221,7 @@ img {
 /* Nav css */
 .nav {
     background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
-    height: 50px;
+    height: 65px;
 }
 
 .nav .logo {
@@ -1611,7 +1617,7 @@ img {
     color: #868D95;
 }
 
-/* Footer start */
+/* ----------------------------Footer start ----------------------------------*/
 .footerbottomnav {
     background: white;
     width: 420px;
@@ -1627,7 +1633,6 @@ img {
 .footerbottomnav ul li {
     text-align: center;
     background: #9c6b1f4d;
-    /* height: 40px; */
     width: 60px;
     border-radius: 8px;
     padding: 9px 6px;
@@ -1658,7 +1663,7 @@ img {
 
 }
 
-/* Portfolio tabs css start */
+/* -------------------------------------Portfolio tabs css start ------------------------*/
 .Portfoliotabs {}
 
 .Portfoliotabs .nav {
@@ -1685,7 +1690,7 @@ img {
     color: #0d6efd
 }
 
-/* walletcard css Start */
+/*----------------------------------- walletcard css Start -------------------------*/
 .walletcard {}
 
 .walletcard .HeadingWallet {
@@ -1795,7 +1800,6 @@ img {
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    /* gap: 0.3rem; */
 }
 
 .walletcard .walletlist li .boxtext .textbxo .text {
@@ -1824,7 +1828,7 @@ img {
     color: #2D9C57;
 }
 
-/* Profilehed Section css Start */
+/*------------------------------Profilehed Section css Start ------------------------------*/
 .Profilehed .topcard {
     background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
     border: 0;
@@ -1983,7 +1987,7 @@ img {
     width: 100%;
 }
 
-/* DepositModal css start */
+/* ----------------------------------DepositModal css start --------------------------------*/
 .DepositModal .modal-content {}
 
 .DepositModal .modal-content .modal-header {
@@ -2053,7 +2057,7 @@ img {
     color: white;
 }
 
-/* Personal Information Page Css Start */
+/* -----------------------------------------Personal Information Page Css Start ---------------------------*/
 .PersonalInformationPage {}
 
 .PersonalInformationPage .back {
@@ -2120,7 +2124,7 @@ img {
     justify-content: center;
 }
 
-/* Notification Css Start */
+/* --------------------------------Notification Css Start -------------------------*/
 
 
 .NotifictionPage .back {
@@ -2147,7 +2151,6 @@ img {
 }
 
 .NotifictionPage .NotifictionPageList li {
-    /* box-shadow: 0px 0px 10px #808080; */
     margin-bottom: 10px;
     background: rgb(216 216 216);
     border-radius: 13px;
@@ -2192,45 +2195,53 @@ img {
     color: #292108;
     font-weight: 400;
 }
-.Privacypolicypage p{
-    font-size: 14px;
-}
-.Privacypolicypage ul li{
-    font-size: 14px;
-}
-/* Withdraw Pagwe css */
-.withrawsection{
 
+.Privacypolicypage p {
+    font-size: 14px;
 }
-.withrawsection .form-label{
+
+.Privacypolicypage ul li {
+    font-size: 14px;
+}
+
+/*---------------------------------- Withdraw Pagwe css ----------------------------------*/
+.withrawsection {}
+
+.withrawsection .form-label {
     font-size: 14px;
     color: #292108;
     font-weight: 600;
 }
-.withrawsection .form-control{
-height: 35px;
-border-radius: 9px;
-border-color: #24272a;
-box-shadow: 0px 0px 10px #eee;
-font-size: 14px;
-}
-.withrawsection .withdrawcard{
-    box-shadow: 0px 0px 10px #eee;
-}
-.withrawsection .withdrawcard .left{
-font-size: 14px;
-color: #292108;
 
-}
-.withrawsection p{
+.withrawsection .form-control {
+    height: 35px;
+    border-radius: 9px;
+    border-color: #24272a;
+    box-shadow: 0px 0px 10px #eee;
     font-size: 14px;
 }
-/* Activation_Planpage Css Start*/
-.Activation_Planpage{
+
+.withrawsection .withdrawcard {
+    box-shadow: 0px 0px 10px #eee;
+}
+
+.withrawsection .withdrawcard .left {
+    font-size: 14px;
+    color: #292108;
+
+}
+
+.withrawsection p {
+    font-size: 14px;
+}
+
+/*--------------------------------Activation_Planpage Css Start ------------------------*/
+.Activation_Planpage {
     padding-top: 20px;
     height: 100vh;
 }
-.Activation_Planpage .card{
+
+.Activation_Planpage .card {
     background-image: url(../image/home/backgroundcard.png);
     background-repeat: no-repeat;
     background-size: 100%, 100%;
@@ -2238,7 +2249,8 @@ color: #292108;
     box-shadow: none;
     border-radius: 20px;
 }
-.Activation_Planpage .card .activatedbtn{
+
+.Activation_Planpage .card .activatedbtn {
     background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
     color: white;
     border: 0;
@@ -2253,7 +2265,8 @@ color: #292108;
     height: 40px;
     line-height: 30px;
 }
-.Activation_Planpage .card .textexp{
+
+.Activation_Planpage .card .textexp {
     background-color: white;
     width: 100%;
     margin: auto;
@@ -2265,304 +2278,494 @@ color: #292108;
     align-items: center;
     justify-content: center;
 }
-.Activation_Planpage .card .expdate{
+
+.Activation_Planpage .card .expdate {
     text-align: center;
     font-size: 14px;
     color: white;
     margin-top: 10px;
     margin-bottom: 0;
 }
-/* Extera css */
-.signup{
-    height: 100% !important;
+
+/*------------------------------- Change Password page css -----------------------------*/
+.changepasslistclipboard {}
+
+.changepasslistclipboard {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
 }
-.mobiledexktopview{
+
+.changepasslistclipboard li {
+    width: 30%;
+    font-size: 14px;
+    color: white;
+}
+
+.changepasslistclipboard li span {
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 80px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.changepasslistclipboard li span {
+    height: 28px;
+}
+
+/* ----------------------------- mining Page css Start -------------------------- */
+.miningpagestart {}
+
+.miningpagestart .card {
+    border: 0;
+    background: #803793;
+    border-radius: 0;
+    min-height: 300px;
+    position: relative;
+}
+
+.miningpagestart .card .mininglist {
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.miningpagestart .card .mininglist li .Anker {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.miningpagestart .card .mininglist li .Anker.clickspiner{
+    color: #00CC2E;
+}
+.miningpagestart .card .mininglist li .Anker.clickspiner span i{
+    color: #00CC2E;
+}
+.miningpagestart .card .mininglist li .Anker span {
+    text-align: center;
+    color: white;
+}
+.miningpagestart .card .box{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 0.8rem;
+}
+.miningpagestart .card .box .remtext{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.miningpagestart .card .box .hedaing{
+    color: #FAA009;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.miningpagestart .card .box p{
+    color: white;
+    font-weight: 900;
+    font-size: 14spx;
+}
+/*------------------------------ Extera css ---------------------------------------*/
+.signup {
     height: 100% !important;
 }
 
-/* Responsive 320 to 576px */
+.mobiledexktopview {
+    height: 100% !important;
+}
+
+/*-------------------------------Responsive 320 to 576px --------------------------*/
 @media (min-width: 320px) and (max-width: 600px) {
-    .referralpage .card{
+    .referralpage .card {
         width: 100%;
     }
-    .Activationpage{
+
+    .Activationpage {
         height: 100vh;
     }
+
     .myReferral {
         height: 100vh;
     }
-    .referralpage{
+
+    .referralpage {
         height: 94vh;
     }
-    .signup{
+
+    .signup {
         height: 100vh !important;
     }
-    .mobiledexktopview{
+
+    .mobiledexktopview {
         height: 100vh !important;
     }
-    body{
+
+    body {
         /* background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108); */
     }
-    .Privacypolicypage{
+
+    .Privacypolicypage {
         height: 100vh;
         padding-bottom: 40px;
     }
-    .Privacypolicypage p{
+
+    .Privacypolicypage p {
         font-size: 12px;
     }
-    .Privacypolicypage ul li{
+
+    .Privacypolicypage ul li {
         font-size: 12px;
     }
+
     .App {
         width: 100% !important;
     }
-    .Announcementsection .listitems li{
+
+    .Announcementsection .listitems li {
         height: 70px;
     }
-    .Announcementsection .listitems li .Anker .imagebox{
+
+    .Announcementsection .listitems li .Anker .imagebox {
         width: 30px;
         height: 20px;
     }
-    .Announcementsection .listitems li .Anker .textli{
+
+    .Announcementsection .listitems li .Anker .textli {
         font-size: 12px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
-    .Announcementsection .card{
+
+    .Announcementsection .card {
         padding: 5px 15px;
     }
-    .Announcementsection .card .Heading{
+
+    .Announcementsection .card .Heading {
         font-size: 14px;
     }
-    .BotStatus .Heading{
+
+    .BotStatus .Heading {
         font-size: 15px;
     }
-    .BotStatus .card .leftsidebox .botbutton{
+
+    .BotStatus .card .leftsidebox .botbutton {
         font-size: 12px;
     }
-    .BotStatus .card .leftsidebox .botbutton span{
+
+    .BotStatus .card .leftsidebox .botbutton span {
         height: 22px;
     }
-    .BotStatus .card .leftsidebox p{
+
+    .BotStatus .card .leftsidebox p {
         font-size: 12px;
     }
+
     .BotStatus .card .rightimage .image {
         height: 60px;
         width: 60px;
     }
-    .BotStatus .card .leftsidebox .flow{
+
+    .BotStatus .card .leftsidebox .flow {
         font-size: 12px;
     }
-    .tradeAnalysus .Heading{
+
+    .tradeAnalysus .Heading {
         font-size: 15px;
         margin-bottom: 0px;
     }
-    .tradeAnalysus .card .marketlist li .days{
+
+    .tradeAnalysus .card .marketlist li .days {
         font-size: 12px;
     }
-    .tradeAnalysus .card .marketlist li .num{
+
+    .tradeAnalysus .card .marketlist li .num {
         font-size: 12px
     }
-    .tradeAnalysus .card .sammtext{
+
+    .tradeAnalysus .card .sammtext {
         margin-bottom: 5px;
     }
-    .tradeAnalysus .card .miningusdt{
+
+    .tradeAnalysus .card .miningusdt {
         font-size: 16px;
     }
-    .tradeAnalysus .card .card-footer .footerp{
+
+    .tradeAnalysus .card .card-footer .footerp {
         font-size: 10px;
     }
-    .cardcoinsec .binancecard .cardHeader .box .card-headfing{
+
+    .cardcoinsec .binancecard .cardHeader .box .card-headfing {
         font-size: 12px
     }
-    .cardcoinsec .binancecard .cardHeader .box .mainusdt{
+
+    .cardcoinsec .binancecard .cardHeader .box .mainusdt {
         font-size: 16px;
     }
-    .cardcoinsec .binancecard .cardHeader .image{
+
+    .cardcoinsec .binancecard .cardHeader .image {
         width: 40px;
         height: 40px;
     }
-    .cardcoinsec .binancecard .marketlist li .days{
+
+    .cardcoinsec .binancecard .marketlist li .days {
         font-size: 10px;
     }
-    .cardcoinsec .binancecard .marketlist li .num{
+
+    .cardcoinsec .binancecard .marketlist li .num {
         font-size: 10px;
     }
-    .cardcoinsec .binancecard .cardHeader .box .smalltext{
+
+    .cardcoinsec .binancecard .cardHeader .box .smalltext {
         font-size: 10px;
     }
-    .bootmsec .Heading{
+
+    .bootmsec .Heading {
         font-size: 17px;
     }
-    .footerbottomnav{
+
+    .footerbottomnav {
         width: 100%;
     }
-    .footerbottomnav ul li{
+
+    .footerbottomnav ul li {
         padding: 5px 5px;
     }
-    .footerbottomnav ul li .Anker{
+
+    .footerbottomnav ul li .Anker {
         font-size: 12px;
     }
-    .walletcard .HeadingWallet{
+
+    .walletcard .HeadingWallet {
         font-size: 16px;
     }
-    .walletcard .Walletcard .paymrnt{
+
+    .walletcard .Walletcard .paymrnt {
         font-size: 15px;
     }
-    .walletcard .Walletcard .smalltext{
+
+    .walletcard .Walletcard .smalltext {
         font-size: 12px;
     }
-    .walletcard .Walletcard .GroupBtuun .mainbtn{
+
+    .walletcard .Walletcard .GroupBtuun .mainbtn {
         font-size: 12px;
     }
-    .walletcard .hostorheading .headingHistory{
+
+    .walletcard .hostorheading .headingHistory {
         font-size: 16px;
     }
-    .walletcard .hostorheading .modalbtn{
+
+    .walletcard .hostorheading .modalbtn {
         width: 30px;
         height: 30px;
     }
-    .walletcard .walletlist li .boxtext .textbxo .text{
+
+    .walletcard .walletlist li .boxtext .textbxo .text {
         font-size: 12px;
     }
-    .walletcard .walletlist li .boxtext .textbxo .Date{
+
+    .walletcard .walletlist li .boxtext .textbxo .Date {
         font-size: 11px;
     }
-    .walletcard .walletlist li .paymettext{
+
+    .walletcard .walletlist li .paymettext {
         font-size: 13px;
     }
-    .walletcard .walletlist li .boxtext .icon{
+
+    .walletcard .walletlist li .boxtext .icon {
         width: 50px;
         height: 50px;
     }
-    .Deposite .back{
+
+    .Deposite .back {
         width: 20px;
         height: 20px;
     }
-    .Deposite .HeadingWallet{
+
+    .Deposite .HeadingWallet {
         font-size: 16px;
     }
-    .Deposite .bottomheading{
+
+    .Deposite .bottomheading {
         font-size: 15px;
     }
-    .Deposite ol li{
+
+    .Deposite ol li {
         font-size: 13px;
     }
-    body .modal .modal-content{
+
+    body .modal .modal-content {
         width: 100%;
     }
-    .referralpage .card .referrallisticon li .Anker span{
+
+    .referralpage .card .referrallisticon li .Anker span {
         width: 40px;
         height: 40px;
     }
-    .referralpage .card .referrallisticon li .Anker{
+
+    .referralpage .card .referrallisticon li .Anker {
         font-size: 12px;
     }
-    .PersonalInformationPage .HeadingWallet{
+
+    .PersonalInformationPage .HeadingWallet {
         font-size: 14px;
     }
-    .PersonalInformationPage .back{
+
+    .PersonalInformationPage .back {
         width: 20px;
         height: 20px;
     }
-    .PersonalInformationPage .PersonalInformationList li .Anker .name{
+
+    .PersonalInformationPage .PersonalInformationList li .Anker .name {
         font-size: 12px;
     }
-    .PersonalInformationPage .PersonalInformationList li .Anker .username{
+
+    .PersonalInformationPage .PersonalInformationList li .Anker .username {
         font-size: 12px;
     }
-    .listProfile .profilelist li .listin{
+
+    .listProfile .profilelist li .listin {
         font-size: 12px;
     }
-    .Profilehed .topcard .card_Icon_text .textrightbox .name{
+
+    .Profilehed .topcard .card_Icon_text .textrightbox .name {
         font-size: 13px;
     }
-    .Profilehed .topcard .card_Icon_text .textrightbox .Uidname{
+
+    .Profilehed .topcard .card_Icon_text .textrightbox .Uidname {
         font-size: 11px;
     }
-    .Profilehed .topcard .card_Icon_text .textrightbox .mail{
+
+    .Profilehed .topcard .card_Icon_text .textrightbox .mail {
         font-size: 11px;
     }
-    .loginpage h1{
+
+    .loginpage h1 {
         font-size: 16px;
     }
-    .loginpage input{
+
+    .loginpage input {
         height: 35px;
     }
-    .loginpage .show{
+
+    .loginpage .show {
         width: 30px;
         height: 20px;
         top: 8px;
-    }.loginpage .hide{
+    }
+
+    .loginpage .hide {
         width: 30px;
         height: 20px;
         top: 8px;
     }
-    .loginpage .form-check .form-check-label{
+
+    .loginpage .form-check .form-check-label {
         font-size: 14px;
     }
-    .loginpage .Anker{
+
+    .loginpage .Anker {
         font-size: 14px;
     }
-    .loginpage .btnlogin{
+
+    .loginpage .btnlogin {
         font-size: 14px;
     }
-    .loginpage .bottomtext{
+
+    .loginpage .bottomtext {
         font-size: 14px;
     }
-    .Securitypage1 .headingsecurity{
+
+    .Securitypage1 .headingsecurity {
         font-size: 16px;
         font-weight: 800;
     }
-    .Securitypage1 .secp{
+
+    .Securitypage1 .secp {
         font-size: 12px;
     }
-    .Securitypage1 .form-check .form-check-label{
+
+    .Securitypage1 .form-check .form-check-label {
         font-size: 13px;
     }
-    .Securitypage1 .submitbtn{
+
+    .Securitypage1 .submitbtn {
         font-size: 14px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .SecurityWallet .seccard .progressbar li{
+
+    .SecurityWallet .seccard .progressbar li {
         font-size: 10px;
     }
-    .SecurityWallet .headingsecurity{
+
+    .SecurityWallet .headingsecurity {
         font-size: 18px;
     }
-    .SecurityWallet .secp{
+
+    .SecurityWallet .secp {
         font-size: 12px;
     }
-    .SecurityWallet .submitbtn{
+
+    .SecurityWallet .submitbtn {
         font-size: 13px;
         display: flex;
         align-items: center;
         justify-content: center;
-    }.SecurityWallet .seccard .tipslist li{
+    }
+
+    .SecurityWallet .seccard .tipslist li {
         font-size: 13px;
     }
-    .SecurityWallet .seccard .listclipboard{
+
+    .SecurityWallet .seccard .listclipboard {
         padding-left: 10px;
     }
-    .SecurityWallet .seccard .listclipboard li{
+
+    .SecurityWallet .seccard .listclipboard li {
         font-size: 10px;
         width: 27%;
     }
-    .SecurityWallet .seccard .listclipboard li span{
+
+    .SecurityWallet .seccard .listclipboard li span {
         width: 55px;
         font-size: 11px;
     }
-    .SecurityWallet .seccard .listclipboard li span input{
+
+    .SecurityWallet .seccard .listclipboard li span input {
         width: 55px;
         font-size: 11px;
     }
-    .SecurityWallet .copyclipboardbtn .hidebtn{
+
+    .SecurityWallet .copyclipboardbtn .hidebtn {
         font-size: 12px;
     }
-    .SecurityWallet .copyclipboardbtn .copybtn{
+
+    .SecurityWallet .copyclipboardbtn .copybtn {
         font-size: 12px;
     }
 }
