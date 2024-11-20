@@ -2371,6 +2371,11 @@ img {
     margin-top: 40px;
     gap: 0.8rem;
 }
+.miningpagestart .card .box .image{
+    width: 170px;
+    height: 150px;
+    margin: auto;
+}
 .miningpagestart .card .box .remtext{
     color: white;
     font-size: 16px;
@@ -2385,7 +2390,7 @@ img {
 .miningpagestart .card .box p{
     color: white;
     font-weight: 900;
-    font-size: 14spx;
+    font-size: 14px;
 }
 /*------------------------------ Extera css ---------------------------------------*/
 .signup {
@@ -2768,4 +2773,20 @@ img {
     .SecurityWallet .copyclipboardbtn .copybtn {
         font-size: 12px;
     }
+
+.miningpagestart .card .box .image{
+    width: 100px;
+    height: 90px;
+    margin: auto;
+}
+.miningpagestart .card .box .remtext{
+    font-size: 14px;
+}
+.miningpagestart .card .box .hedaing{
+    font-size: 14px;
+}
+.miningpagestart .card .box p{
+    font-size: 13px;
+    font-weight: 700;
+}
 }
