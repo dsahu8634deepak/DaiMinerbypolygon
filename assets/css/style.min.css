@@ -2400,13 +2400,17 @@ img {
 .mobiledexktopview {
     height: 100% !important;
 }
-
+.vhunst{
+    height: unset;
+}
 /*-------------------------------Responsive 320 to 576px --------------------------*/
 @media (min-width: 320px) and (max-width: 600px) {
     .referralpage .card {
         width: 100%;
     }
-
+    .vhunst{
+        height: 100vh;
+    }
     .Activationpage {
         height: 100vh;
     }
