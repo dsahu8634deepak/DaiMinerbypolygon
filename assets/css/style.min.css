@@ -2324,73 +2324,171 @@ img {
 /* ----------------------------- mining Page css Start -------------------------- */
 .miningpagestart {}
 
-.miningpagestart .card {
-    border: 0;
-    background: #803793;
-    border-radius: 0;
-    min-height: 300px;
-    position: relative;
+.miningpagestart .toptext {
+    font-size: 13px;
+    color: gray;
 }
 
-.miningpagestart .card .mininglist {
-    list-style: none;
-    padding-left: 0;
-    position: absolute;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.miningpagestart .totalming {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
 }
 
-.miningpagestart .card .mininglist li .Anker {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
+.miningpagestart .totalming span {
+    color: blue;
 }
 
-.miningpagestart .card .mininglist li .Anker.clickspiner{
-    color: #00CC2E;
-}
-.miningpagestart .card .mininglist li .Anker.clickspiner span i{
-    color: #00CC2E;
-}
-.miningpagestart .card .mininglist li .Anker span {
-    text-align: center;
-    color: white;
-}
-.miningpagestart .card .box{
-    width: 75%;
-    margin: auto;
-    text-align: center;
+.miningpagestart .minigbox {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 40px;
-    gap: 0.8rem;
+    justify-content: space-between;
+    margin-top: 10px;
 }
-.miningpagestart .card .box .image{
-    width: 120px;
-    height: 120px;
-    margin: auto;
-}
-.miningpagestart .card .box .remtext{
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-}
-.miningpagestart .card .box .hedaing{
-    color: #FAA009;
-    font-size: 16px;
-    font-weight: bold;
 
+.miningpagestart .btnming {
+    width: auto;
+    height: 50px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 15px;
+    justify-content: center;
 }
-.miningpagestart .card .box p{
-    color: white;
-    font-weight: 900;
-    font-size: 14px;
+
+.miningpagestart .btnming span {
+    color: #133da7;
+}
+
+.miningpagestart .btnming.btnmie1 {
+    border: 1.5px solid #A33A3F;
+    background-color: #FDC9CB;
+    border-radius: 0;
+}
+
+.miningpagestart .btnming.btnmie2 {
+    border: 1.5px solid #157D26;
+    background-color: #BEFFC3;
+    border-radius: 0;
+}
+
+.miningpagestart .btnming.btnmie3 {
+    border: 1.5px solid #43418C;
+    background-color: #CCCCFE;
+    border-radius: 0;
+}
+
+.accoddainbox .accordion {}
+
+.accoddainbox .accordion .accordion-item.acc-1{
+    border: 1.5px solid #A33A3F;
+    overflow: hidden;
+}
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-header {
+    background-color: #FDCAC9;
+}
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-header .accordion-button {
+    box-shadow: none;
+    background-color: #FDCAC9;
+}
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-header .accordion-button .accintext {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-header .accordion-button .accintext .lefttext{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-header .accordion-button .accintext .endtext{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-collapse {}
+
+
+.accoddainbox .accordion .accordion-item.acc-1 .accordion-collapse .accordion-body p{
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.accoddainbox .accordion .accordion-item.acc-2{
+    border: 1.5px solid #3E9C50;
+    overflow: hidden;
+}
+
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-header {
+    background-color: #BFFEC7;
+}
+
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-header .accordion-button {
+    box-shadow: none;
+    background-color: #BFFEC7;
+    color: black;
+}
+
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-header .accordion-button .accintext {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-header .accordion-button .accintext .lefttext{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-header .accordion-button .accintext .lefttext .endtext{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse {}
+
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse .accordion-body .bodtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse .accordion-body .bodtop .left{
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse .accordion-body .bodtop .right{
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse .accordion-body p{
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse .accordion-body p .Anker{
+    font-size: 13px;
+    color: blue;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.accoddainbox .accordion .accordion-item.acc-2 .accordion-collapse .accordion-body button{
+    border: 1px solid #674D7C;
+    color: #674D7C;
 }
 /*------------------------------ Extera css ---------------------------------------*/
 .signup {
@@ -2400,17 +2498,21 @@ img {
 .mobiledexktopview {
     height: 100% !important;
 }
-.vhunst{
+
+.vhunst {
     height: unset;
 }
+
 /*-------------------------------Responsive 320 to 576px --------------------------*/
 @media (min-width: 320px) and (max-width: 600px) {
     .referralpage .card {
         width: 100%;
     }
-    .vhunst{
+
+    .vhunst {
         height: 100vh;
     }
+
     .Activationpage {
         height: 100vh;
     }
@@ -2778,19 +2880,22 @@ img {
         font-size: 12px;
     }
 
-.miningpagestart .card .box .image{
-    width: 100px;
-    height: 90px;
-    margin: auto;
-}
-.miningpagestart .card .box .remtext{
-    font-size: 14px;
-}
-.miningpagestart .card .box .hedaing{
-    font-size: 14px;
-}
-.miningpagestart .card .box p{
-    font-size: 13px;
-    font-weight: 700;
-}
+    .miningpagestart .card .box .image {
+        width: 100px;
+        height: 90px;
+        margin: auto;
+    }
+
+    .miningpagestart .card .box .remtext {
+        font-size: 14px;
+    }
+
+    .miningpagestart .card .box .hedaing {
+        font-size: 14px;
+    }
+
+    .miningpagestart .card .box p {
+        font-size: 13px;
+        font-weight: 700;
+    }
 }

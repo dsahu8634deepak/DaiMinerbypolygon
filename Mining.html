@@ -55,7 +55,8 @@
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-12 d-flex align-items-center justify-content-between">
-                        <a class="logo" href="../index.html"><img class="w-100 h-100" src="./assets/image/logo/logo.png" alt="logo"></a>
+                        <a class="logo" href="../index.html"><img class="w-100 h-100" src="./assets/image/logo/logo.png"
+                                alt="logo"></a>
                         <!-- <p class="fw-bold mb-0 text-white">logo</p> -->
                         <a href="./notification.html" class="Notifictionicon"><i class="fa-regular fa-bell"></i></a>
                     </div>
@@ -65,22 +66,76 @@
         <!----------------------------------------------------- Header End--------------------------------------->
         <div class="miningpagestart mobiledexktopview pb-5 mb-5">
             <div class="container-fluid vh-100">
-                <div class="row">
-                    <div class="col-12 px-0">
-                        <div class="card">
-                            <div class="card-body">
-                                <ul class="mininglist">
-                                    <li><a class="Anker" href="./notification.html"> <span><i class="fa-solid fa-message"></i></span>Chat</a></li>
-                                    <li><a class="Anker" href="./Portfolio.html"> <span><i class="fa-solid fa-shield"></i></span>0%</a></li>
-                                    <li><a class="Anker" href="./referralTeam.html"> <span><i class="fa-solid fa-user-group"></i></span>0/0</a></li>
-                                    <li><a class="Anker clickspiner" href=""> <span><i class="fa-solid fa-spinner"></i></span>0.00 h</a></li>
-                                    <li><a class="Anker" href="./refer.html"> <span><i class="fa-solid fa-share"></i></span>Invite</a></li>
-                                </ul>
-                                <div class="box">
-                                    <div class="remtext">Reminder:</div>
-                                    <div class="hedaing">Complete Mainnet Checklist</div>
-                                    <div class="image"><img class="w-100 h-100" src="./assets/image/home/coin.svg" alt="image"></div>
-                                    <p>Complete all Mainnet checklist steps especially after you KYC!</p>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-12 px-0">
+                            <p class="toptext mt-3 text-center">Mining Session Ends </p>
+                            <div class="totalming text-center">Total mining rate: <span>0000 dai/hr</span></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="minigbox">
+                                <button class="btn btnming btnmie1">Base Rate <span>0000 Dai/hr</span></button>
+                                <button class="btn btnming btnmie2">Booster<span>0000 %</span></button>
+                                <button class="btn btnming btnmie3">Rewards<span>0000 </span></button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="accoddainbox">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item acc-1 mb-3">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                <div class="accintext">
+                                                    <div class="lefttext">Base Rate <span><i
+                                                                class="fa-solid fa-circle-question"></i></span></div>
+                                                    <div class="endtext">000 Dai /hr</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>This rate is dynamically computed based on how much Pioneers overall are currently mining and the total available DAI left to distribute</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item acc-2">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="accintext">
+                                                    <div class="">Boosters <span><i
+                                                                class="fa-solid fa-circle-question"></i></span></div>
+                                                    <div class="">100%</div>
+                                                </div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="bodtop">
+                                                    <div class="left">Pioneer</div>
+                                                    <div class="right">100%</div>
+                                                </div>
+                                                <div class="bodtop">
+                                                    <div class="left">Security circle</div>
+                                                    <div class="right">0 * 20% = <span>00.0</span>%</div>
+                                                </div>
+                                                <p>For this mining session, you have decleard at least 0 security
+                                                    connection <a class="Anker" href="">Details</a></p>
+                                                <div class="bodtop">
+                                                    <div class="left">Security circle</div>
+                                                    <div class="right">0 * 20% = <span>00.0</span>%</div>
+                                                </div>
+                                                <p>Your lockup reward is based on the amount of locked up Dai and Lockup
+                                                    duration</p>
+                                                <button class="btn rounded-3">configure</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -88,11 +143,12 @@
                 </div>
             </div>
         </div>
-        <!------------------------------------------------------- Footer bootom start------------------------------------->
-        <div class=""id="footer"></div>
-        
-        <!------------------------------------------------------- Modal Navbar------------------------------------------->
-        <!-- <div class="modal fade modlenav" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    </div>
+    <!------------------------------------------------------- Footer bootom start------------------------------------->
+    <div class="" id="footer"></div>
+
+    <!------------------------------------------------------- Modal Navbar------------------------------------------->
+    <!-- <div class="modal fade modlenav" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header border-0 pt-5 mt-5">
