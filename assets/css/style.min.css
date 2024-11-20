@@ -2225,7 +2225,53 @@ color: #292108;
 .withrawsection p{
     font-size: 14px;
 }
-/*  */
+/* Activation_Planpage Css Start*/
+.Activation_Planpage{
+    padding-top: 20px;
+    height: 100vh;
+}
+.Activation_Planpage .card{
+    background-image: url(../image/home/backgroundcard.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    border: 0;
+    box-shadow: none;
+    border-radius: 20px;
+}
+.Activation_Planpage .card .activatedbtn{
+    background: linear-gradient(45deg, #9C8429, #9C6B1F, #4F3F0D, #292108);
+    color: white;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.Activation_Planpage .card .textexp{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    font-size: 13px;
+    color: red;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Activation_Planpage .card .expdate{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+/* Extera css */
 .signup{
     height: 100% !important;
 }
